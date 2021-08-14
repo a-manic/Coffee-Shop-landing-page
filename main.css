@@ -1,0 +1,354 @@
+.main-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.announcements{
+    display: flex;
+    background-color: #d8e8e3;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.announcements span{
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+    max-width: 53%;
+    text-align: center;
+    font-size: 19px;
+    line-height: 1.75;
+    font-weight: 400;
+}
+
+.left-right-section{
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.left-right-section .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e3932;
+    color: white;
+    font-size: 1.6rem;
+    padding: 32px 48px;
+
+}
+
+.text .actual-text{
+    
+    margin: 0;
+    max-width: 85%;
+    margin-bottom: 2.4rem;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.left-right-section .image{
+    width: 50%;
+    display: flex;
+}
+
+.left-right-section .image img{
+    width: 100%;
+}
+
+.actual-text .cta{
+    margin-top: 3.2rem!important;
+    min-width: 35px;
+    min-height: 35px;
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-weight: 600;
+    line-height: 1.9;
+    text-align: center;
+    transition: all .2s ease;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-color: white;
+    color: white;
+}
+
+.actual-text .cta:hover{
+    background-color: hsla(0,0%,100%,.12);
+}
+
+.chill-section{
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.chill-section .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f0eb;
+    color: #1e3932;
+    font-size: 1.6rem;
+    padding: 32px 48px;
+    text-align: center;
+
+
+}
+
+.chill-section .image{
+    width: 50%;
+    display: flex;
+}
+
+.chill-section .image img{
+    width: 100%;
+}
+
+.chill-section .text .cta{
+    margin-top: 3.2rem!important;
+    min-width: 35px;
+    min-height: 35px;
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-weight: 600;
+    line-height: 1.9;
+    text-align: center;
+    transition: all .2s ease;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-color: #1e3932;
+    color: #1e3932
+}
+
+.chill-section .text h1{
+    margin: 0;
+    letter-spacing: 8px;
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.chill-section .text h3{
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    font-weight: 400;
+    max-width: 85%;
+}
+
+.frap-section .text h1{
+    margin: 0;
+    letter-spacing: 8px;
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.frap-section .text h3{
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    font-weight: 400;
+    max-width: 85%;
+}
+
+.chill-section .text .cta:hover{
+    background-color: rgba(30,57,50,.1);
+}
+
+.frap-section{
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.frap-section .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f0eb;
+    color: #1e3932;
+    font-size: 1.6rem;
+    padding: 32px 48px;
+    text-align: center;
+
+
+}
+
+.frap-section .image{
+    width: 50%;
+    display: flex;
+}
+
+.frap-section .image img{
+    width: 100%;
+}
+
+.frap-section .text .cta{
+    margin-top: 3.2rem!important;
+    min-width: 35px;
+    min-height: 35px;
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-weight: 600;
+    line-height: 1.9;
+    text-align: center;
+    transition: all .2s ease;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-color: #1e3932;
+    color: #1e3932
+}
+
+
+.frap-section .text .cta:hover{
+    background-color: rgba(30,57,50,.1);
+}
+
+section{
+    display: flex;
+}
+.top-bottom-section{
+    width: 50%;
+    margin-bottom: 32px;
+    
+}
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.top-bottom-section .image{
+    width: 100%;
+    background-color: #d4e9e2;
+}
+
+.top-bottom-section .image img{
+    width: 100%;
+}
+
+.top-bottom-section .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #d4e9e2;
+    padding-bottom: 3.2rem
+}
+
+.text h1{
+    font-size: 24px;
+}
+
+.text h3{
+    max-width: 80%;
+    font-size: 19px;
+    line-height: 1.75;
+    font-weight: 400;
+}
+
+.top-bottom-section .text .cta{
+    
+    min-width: 35px;
+    min-height: 35px;
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-weight: 600;
+    line-height: 1.9;
+    text-align: center;
+    transition: all .2s ease;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-color: #1e3932;
+    color: #1e3932
+}
+
+.top-bottom-section .text .cta:hover{
+    background-color: rgba(30,57,50,.1);
+}
+
+.top-bottom-section:first-child{
+    margin-right: 16px;
+}
+
+.top-bottom-section:last-child{
+    margin-left: 16px;
+}
+
+.stories-section{
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.stories-section .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f0eb;
+    color: #1e3932;
+    font-size: 1.6rem;
+    padding: 32px 48px;
+    text-align: center;
+
+
+}
+
+.stories-section .image{
+    width: 50%;
+    display: flex;
+}
+
+.stories-section .image img{
+    width: 100%;
+}
+
+.stories-section .text .cta{
+    
+    min-width: 35px;
+    min-height: 35px;
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-weight: 600;
+    line-height: 1.9;
+    text-align: center;
+    transition: all .2s ease;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.stories-section .text .cta:hover{
+    background-color: rgba(0,130,72,.08);
+}
+
+.terms{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.terms span{
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+    max-width: 53%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.75;
+    font-weight: 400;
+}
