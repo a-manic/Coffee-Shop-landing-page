@@ -1,4 +1,4 @@
-A very simple clone of the Starbucks August 2021 landing page.
+A simple clone of the Starbucks August 2021 landing page.
 
 Built using HTML and CSS.
 
